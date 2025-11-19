@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 connectDB();
 
 // Middleware
-const allowedOrigins = ["https://quiz-master-hub-74-munendrasengar-munendras-projects-4549e1b9.vercel.app/"];
+const allowedOrigins = ['https://quiz-master-hub-74-munendrasengar-munendras-projects-4549e1b9.vercel.app']
 
 const corsOptions = {
   origin: (origin, callback) => {
